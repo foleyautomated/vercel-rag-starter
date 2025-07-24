@@ -5,6 +5,16 @@
     {
       "type": "node",
       "request": "launch",
+      "name": "Run pnpm start (production)",
+      "preLaunchTask": "pnpm: build",
+      "runtimeExecutable": "pnpm",
+      "runtimeArgs": ["start"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "type": "node",
+      "request": "launch",
       "name": "Run pnpm dev",
       "runtimeExecutable": "pnpm",
       "runtimeArgs": ["run", "dev"],

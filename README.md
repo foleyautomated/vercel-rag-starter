@@ -28,3 +28,8 @@ Contextualized word embedding; How do we get a got "vector" for a given word?
 
 [https://vercel.com/davids-projects-566c42d7/~/integrations/products/neon/icfg_7e8Y90lRwd9Z2Pqu08Hj0Xvh](Neon Postgres DBs on Vercel)
 [https://console.neon.tech/app/projects](Neon Console)
+
+### Neon
+
+[https://neon.com/docs/reference/neon-cli](Neon CLI)
+Run `npx neonctl me` to auth
